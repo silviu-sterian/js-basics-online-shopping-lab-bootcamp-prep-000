@@ -73,5 +73,18 @@ function removeFromCart(item)
 }
 
 function placeOrder(cardNumber) {
-  // write your caode here
+  let returnMessage = '';
+  
+  if (cardNumber == null || cardNumber =='')
+    returnMessage = 'Sorry, we don\'t have a credit card on file for you.'
+  else
+  {
+    let totalCart = total();
+    cart=[];
+    
+    
+  }
+
+  
+  return returnMessage;
 }
