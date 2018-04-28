@@ -45,7 +45,7 @@ function total() {
   
   while (i<cart.length)
   {
-    total +=cart[i].itemPrice;
+    total = total + cart[i].itemPrice;
     i++;
   }
 }
