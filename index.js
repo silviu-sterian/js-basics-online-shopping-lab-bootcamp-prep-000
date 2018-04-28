@@ -81,7 +81,7 @@ function placeOrder(cardNumber) {
   {
     let totalCart = total();
     cart=[];
-    returnMessage = ``;
+    returnMessage = `Your total cost is \$${totalCart}, which will be charged to the card ${cardNumber}.`;
     
   }
 
