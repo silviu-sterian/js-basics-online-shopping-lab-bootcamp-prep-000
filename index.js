@@ -81,7 +81,7 @@ function placeOrder(cardNumber) {
   {
     let totalCart = total();
     cart=[];
-    
+    returnMessage = ``;
     
   }
 
